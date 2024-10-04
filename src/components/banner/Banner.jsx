@@ -44,7 +44,7 @@ const MyCarousel = () => {
   }, []); // Empty dependency array ensures this effect runs once when the component mounts
 
   const handleChatMsg = () => {
-    const whatsappNumber = "+917015823645";
+    const whatsappNumber = "+918168901827";
     const message = `Hello! I'm interested in placing an order. Could you please provide me with more information about your menu options and delivery timings? Thanks!`;
 
     const whatsappLink =
@@ -64,7 +64,7 @@ const MyCarousel = () => {
     <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
     {items.map((item) => (
         <Carousel.Item key={item.id}>
-            <div className="carousel-inner">
+            <div className="carousel-inner" style={{marginTop: "4rem"}}>
 
       <Link
        to={`/menu#${encodeURIComponent(item.target)}`}>

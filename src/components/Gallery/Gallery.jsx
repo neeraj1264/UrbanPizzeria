@@ -25,30 +25,30 @@ const Gallery = () => {
     <>
     <h2 className='gallery-heading'>Our Gallery</h2>
     <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
-    {items.map((item) => (
+      {items.map((item) => (
         <Carousel.Item key={item.id}>
-            <div className="carousel-inner">
-
-                {item.videoUrl ? (
-                  <video
-                    className="d-block"
-                    src={item.videoUrl}
-                    autoPlay
-                    loop
-                    muted
-                    controls // Allows user to play/pause and control audio
-                    playsInline
-                  />
-                ) : (
-                  <img className="d-block" src={item.imageUrl} alt={item.title} />
-                )}
-
+          <div className="carousel-inner">
+            {item.videoUrl ? (
+             <div class="video-container">
+  <div class="video-background"></div>
+                <video
+                  className="video"
+                  src={item.videoUrl}
+                  autoPlay
+                  loop
+                  muted
+                  controls
+                  playsInline
+                />
+              </div>
+            ) : (
+              <img className="d-block" src={item.imageUrl} alt={item.title} />
+            )}
           </div>
         </Carousel.Item>
       ))}
     </Carousel>
-   
-    </>
+  </>
   );
 };
 

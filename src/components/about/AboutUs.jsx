@@ -6,22 +6,9 @@ import aboutUsImage from "/img/about.png";
 import "./AboutUs.css";
 
 const AboutUs = () => {
-  const OfferDetail = () => {
-    const whatsappNumber = "+917015823645";
-    const message = `Hello! I'm interested in your "Buy 1 Get 1 Free Pizza" offer. Could you please provide me with more details? Thank you! `;
-    const whatsappLink =
-      "https://api.whatsapp.com/send?phone=" +
-      whatsappNumber +
-      "&text=" +
-      encodeURIComponent(message);
-
-    window.open(whatsappLink, "_blank");
-  };
-
   return (
     <>
       <div className="about-us-container">
-        {/* <img src={profilepic} alt="About Us" className="offer-image" onClick={() => OfferDetail()}/> */}
         <h2 className="about-heading">Why Urban Pizzeria?</h2>
         <img src={profilepic} alt="About Us" className="about-us-image" />
         <div className="about-us-content">
