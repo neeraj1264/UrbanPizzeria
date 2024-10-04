@@ -8,7 +8,7 @@ function Header() {
     <>
       <nav className="navbar  fixed-top header ">
         <div className="img">
-          <img src="./img/logo3.png" />
+          <img src="./img/urban/logo.png" />
         </div>
         <div
         className="headername"

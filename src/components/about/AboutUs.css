@@ -2,6 +2,11 @@
     font-weight: 700;
     text-align: center;
     margin-top: 3rem;
+    box-shadow: 5px 5px 5px var(--bg);
+    width: fit-content;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    margin: 2rem auto;
 }
 .about-us-container {
     display: flex;
@@ -15,7 +20,8 @@
   .about-us-image {
     width: 100%;
     max-width: 400px;
-
+    border-radius: 1rem;
+    margin-bottom: 1rem;
   }
   .offer-image{
     width: 100%;

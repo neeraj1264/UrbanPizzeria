@@ -79,8 +79,10 @@ const ContactForm = () => {
   };
 
   return (
+    <>
+    <h2 className="contact-heading">Contact Us</h2>
     <div className="contact-form-container">
-      <h2>Contact Us</h2>
+      
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -120,6 +122,7 @@ const ContactForm = () => {
         </button>{" "}
       </form>
     </div>
+    </>
   );
 };
 
