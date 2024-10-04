@@ -4,19 +4,14 @@ import './Gallery.css'
 import { Link } from 'react-router-dom';
 
 const items = [
-  { id: 1,  imageUrl: '/img/burger.jpg'            },
-  { id: 2,  imageUrl: '/img/pizza.jpg'             },
-  { id: 3, videoUrl: '/img/urban/Gallery/reel1.mp4'},
-  { id: 4,  imageUrl: '/img/cornsand.jpg'          },
-  { id: 5,  imageUrl: '/img/makhnipasta.jpg'       },
-  { id: 6,  imageUrl: '/img/dalmakhani.jpeg'       },
-  { id: 7,  imageUrl: '/img/butternaan.jpeg'       },
-  { id: 9,  imageUrl: '/img/chaap1.jpg'            },
-  { id: 10, imageUrl: '/img/shakes.jpg'            },
-  { id: 11, imageUrl: '/img/gb.jpg'                },
-  { id: 12, imageUrl: '/img/momo.jpg'              },
-  { id: 13, imageUrl: '/img/cakes/choco.jpg'       },
-  { id: 14, imageUrl: '/img/bhalle.jpeg'           },
+  { id: 1, videoUrl: '/img/urban/Gallery/reel1.mp4'},
+  { id: 2, videoUrl: '/img/urban/Gallery/reel2.mp4'},
+  { id: 3, imageUrl: '/img/urban/Gallery/img7.jpg'},
+  { id: 4, videoUrl: '/img/urban/Gallery/reel3.mp4'},
+  { id: 5, imageUrl: '/img/urban/Gallery/img8.jpg'},
+  { id: 6, videoUrl: '/img/urban/Gallery/reel4.mp4'},
+  { id: 7, videoUrl: '/img/urban/Gallery/reel5.mp4'},
+  { id: 8, videoUrl: '/img/urban/Gallery/reel6.mp4'},
 ];
 
 const Gallery = () => {

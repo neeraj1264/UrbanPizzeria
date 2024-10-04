@@ -1,6 +1,6 @@
 {
-    "short_name": "Foodies-Hub",
-    "name": "Foodies Hub",
+    "short_name": "Urban-Pizzeria",
+    "name": "Urban Pizzeria",
     "description": "Restaurent",
     "start_url": ".",
     "display": "standalone",
@@ -8,7 +8,7 @@
     "background_color": "#ffffff",
     "icons": [
       {
-        "src": "img/logo.png",
+        "src": "img/urban/logo.png",
         "sizes": "192x192",
         "type": "image/png"
       }
