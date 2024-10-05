@@ -46,6 +46,7 @@ const Gallery = () => {
                       autoPlay
                       loop
                       muted
+                      playsInline
                     />
                   </div>
                   <video
@@ -54,6 +55,7 @@ const Gallery = () => {
                     autoPlay
                     loop
                     muted
+                    playsInline
                   />
                 </div>
               ) : (
