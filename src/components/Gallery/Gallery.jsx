@@ -56,6 +56,7 @@ const Gallery = () => {
                     loop
                     muted
                     playsInline
+                    controls
                   />
                 </div>
               ) : (
