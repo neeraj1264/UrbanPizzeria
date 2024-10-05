@@ -3,14 +3,6 @@ const urlsToCache = [
   '/', // Cache root page
   '/index.html',
   '/img/urban/logo.png',
-  "/img/urban/Gallery/img7.jpg",
-  "/img/urban/Gallery/img8.jpg",
-  "/img/urban/Gallery/reel1.mp4",
-  "/img/urban/Gallery/reel2.mp4",
-  "/img/urban/Gallery/reel3.mp4",
-  "/img/urban/Gallery/reel4.mp4",
-  "/img/urban/Gallery/reel5.mp4",
-  "/img/urban/Gallery/reel6.mp4",
 ];
 
 // Install Service Worker and cache static assets
