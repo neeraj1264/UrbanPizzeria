@@ -22,6 +22,7 @@ function App() {
   }, []);
 
 
+
   const handleInstallClick = () => {
     if (installPrompt instanceof Event) {
       const installEvent = installPrompt;
