@@ -78,9 +78,16 @@ const ContactForm = () => {
     }
   };
 
+  const handleContactScroll = () => {
+    window.scrollTo({
+      top: 2000,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <>
-    <h2 className="contact-heading">Contact Us</h2>
+    <h2 className="contact-heading" onClick={handleContactScroll}>Contact Us</h2>
     <div className="contact-form-container">
       
       <form onSubmit={handleSubmit}>

@@ -6,10 +6,18 @@ import aboutUsImage from "/img/about.png";
 import "./AboutUs.css";
 
 const AboutUs = () => {
+
+  const handleAboutScroll = () => {
+    window.scrollTo({
+      top: 440, // Scrolls to 440px from the top of the page
+      behavior: 'smooth', // Smooth scrolling
+    });
+  };
+
   return (
     <>
       <div className="about-us-container">
-        <h2 className="about-heading">Why Urban Pizzeria?</h2>
+        <h2 className="about-heading" onClick={handleAboutScroll}>Why Urban Pizzeria?</h2>
         <img src={profilepic} alt="About Us" className="about-us-image" />
         <div className="about-us-content">
           <p>

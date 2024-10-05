@@ -21,6 +21,11 @@ function App() {
    }, 500);
   }, []);
 
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    console.log(`Vertical Scroll: ${scrollPosition}px`);
+  });
+  
   const handleInstallClick = () => {
     if (installPrompt instanceof Event) {
       const installEvent = installPrompt;
