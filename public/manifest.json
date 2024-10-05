@@ -2,7 +2,7 @@
     "short_name": "Urban-Pizzeria",
     "name": "Urban Pizzeria",
     "description": "Restaurent",
-    "start_url": ".",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff",
